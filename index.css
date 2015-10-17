@@ -1,3 +1,6 @@
 html{
-  background: url("background.jpg") no-repeat center center fixed;
+  background: url("background.jpg") no-repeat center center fixed; 
+  width: 70%;
+  height: 70%;
+  background-color: lightblue;
 }
