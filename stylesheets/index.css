@@ -1,6 +1,6 @@
 /*background picture*/
 body {
-  background: url("caribbean_beach_wallpaper_hd_by_venomxbaby-d6qssfc.jpg") no-repeat center center fixed;
+  background: url("caribbean_beach.jpg") no-repeat center center fixed;
   /*background: url("pacific-ocean-the-island-of-aitutaki-cook-islands-sea-beach-palm-trees-nature-1200x1920.jpg") no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,5 +13,8 @@ body {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
   width: 50%;
   height: 400px; }
+
+#name {
+  text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
