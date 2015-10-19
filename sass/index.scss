@@ -1,21 +1,87 @@
-/*background picture*/
+// Import files
+@import 'animation';
+
+// background picture
 body{
-  background: url("caribbean_beach.jpg") no-repeat center center fixed;
-  /*background: url("pacific-ocean-the-island-of-aitutaki-cook-islands-sea-beach-palm-trees-nature-1200x1920.jpg") no-repeat center center fixed;*/
+  padding-top: 145px;
+  background: url("../caribbean_beach.jpg") no-repeat center center fixed;
+  /*background: url("../pacific-ocean.jpg") no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-/*menu container styling*/
+// menu container styling
 #container{
   margin: 0 auto;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
   width: 50%;
-  height: 400px;
+  height: 310px;
 }
 
 #name {
+  margin-top: 30px;
   text-align: center;
+  font-size: 30px;
+}
+
+// all this for the menu inside the container
+.menu {
+  padding: 0px;
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+.menu li {
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 50px;
+  display: block;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: transparent;
+  display: block;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px #fff;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu:hover li a{
+  text-shadow: 0px 0px 5px #0d1a3a;
+}
+
+.menu li a:hover{
+  color: #fff;
+  text-shadow: 0px 0px 1px #fff;
+  padding-left: 10px;
+}
+
+// animation
+$animation-duration: 1s;
+
+#li1{
+  @include animation-duration($animation-duration); 
+}
+
+#li2{
+  @include animation-duration($animation-duration);
+  @include animation-delay(0.5s);
+}
+
+#li3{
+  @include animation-duration($animation-duration);
+  @include animation-delay(1s);
+}
+
+#li4{
+  @include animation-duration($animation-duration);
+  @include animation-delay(1.5s);
 }

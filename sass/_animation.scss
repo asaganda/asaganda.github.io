@@ -1,0 +1,13 @@
+@mixin animation-duration($animation-duration) {
+  -webkit-animation-duration: $animation-duration;
+  -moz-animation-duration: $animation-duration;
+  -o-animation-duration: $animation-duration;
+  -ms-animation-duration: $animation-duration;
+}
+
+@mixin animation-delay($animation-delay) {
+  -webkit-animation-delay: $animation-delay;
+  -moz-animation-delay: $animation-delay;
+  -o-animation-delay: $animation-delay;
+  -ms-animation-delay: $animation-delay;
+}
