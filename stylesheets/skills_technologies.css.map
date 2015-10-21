@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACF,gBAAgB,EAAE,OAAO",
+"sources": ["../sass/skills_technologies.scss"],
+"names": [],
+"file": "skills_technologies.css"
+}
