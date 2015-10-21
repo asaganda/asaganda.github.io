@@ -1,5 +1,19 @@
 body{
-  // options for background color of project page
-  // background-color: #00A4B3;
   background-color: #33C1BB;
+}
+
+#container{
+  background-color: white;
+  margin: 0 auto;
+  width: 900px;
+  height: 450px;
+}
+
+#recent{
+  text-align: center;
+}
+
+img{
+  height: 600px;
+  width: 600px;
 }
