@@ -12,6 +12,7 @@ body {
 
 #dashboard {
   border: 2px solid navy;
+  border-radius: 7px;
   height: 300px; }
 
 #dash-img {
@@ -23,7 +24,13 @@ body {
 #image {
   float: left; }
 
-h2, p {
+#title, #description {
   padding-left: 515px; }
+
+hr {
+  margin-top: 20px;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
 
 /*# sourceMappingURL=projects.css.map */
