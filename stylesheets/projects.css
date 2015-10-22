@@ -10,8 +10,20 @@ body {
 #recent {
   text-align: center; }
 
-img {
-  height: 600px;
-  width: 600px; }
+#dashboard {
+  border: 2px solid navy;
+  height: 300px; }
+
+#dash-img {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 500px;
+  object-fit: contain; }
+
+#image {
+  float: left; }
+
+h2, p {
+  padding-left: 515px; }
 
 /*# sourceMappingURL=projects.css.map */
