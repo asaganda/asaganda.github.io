@@ -5,7 +5,7 @@ body {
   background-color: white;
   margin: 0 auto;
   width: 900px;
-  height: 450px; }
+  height: 890px; }
 
 #recent {
   text-align: center; }
@@ -21,10 +21,10 @@ body {
   width: 500px;
   object-fit: contain; }
 
-#image {
+#dash-image {
   float: left; }
 
-#title, #description {
+#dash-title, #dash-description {
   padding-left: 515px; }
 
 hr {
@@ -32,5 +32,13 @@ hr {
   border: 0;
   height: 2px;
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+
+#well-image {
+  float: right;
+  width: 600px;
+  object-fit: contain; }
+
+#well-title {
+  float: left; }
 
 /*# sourceMappingURL=projects.css.map */
