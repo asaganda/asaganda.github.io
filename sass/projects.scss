@@ -6,7 +6,7 @@ body{
   background-color: white;
   margin: 0 auto;
   width: 900px;
-  height: 890px;
+  height: 450px;
 }
 
 #recent{
@@ -46,8 +46,9 @@ hr{
 
 #well-image{
   float: right;
-  width: 600px;
-  object-fit: contain;
+  height: 300px;
+  width: 100%;
+  // object-fit: contain;
 }
 
 #well-title{
