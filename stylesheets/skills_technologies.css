@@ -1,4 +1,10 @@
 body {
   background-color: #D3AB8D; }
 
+#container {
+  margin: 0 auto;
+  width: 800px;
+  height: 300px;
+  background: white; }
+
 /*# sourceMappingURL=skills_technologies.css.map */
