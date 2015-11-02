@@ -1,4 +1,9 @@
 body {
   background-color: #457FC0; }
 
+#container {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center; }
+
 /*# sourceMappingURL=contact.css.map */
