@@ -1,44 +1,30 @@
-body {
-  background-color: #33C1BB; }
-
-#container {
-  background-color: white;
-  margin: 0 auto;
-  width: 900px;
-  height: 450px; }
-
-#recent {
+.section_header {
   text-align: center; }
 
-#dashboard {
+.section_structure {
   border: 2px solid navy;
-  border-radius: 7px;
-  height: 300px; }
+  border-radius: 7px; }
 
-#dash-img {
-  margin-top: 5px;
-  margin-left: 5px;
-  width: 500px;
-  object-fit: contain; }
+.screenshot {
+  margin: 5px;
+  float: left;
+  width: 43%; }
+  .screenshot img {
+    width: 100%;
+    height: auto; }
 
-#dash-image {
-  float: left; }
-
-#dash-title, #dash-description {
-  padding-left: 515px; }
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
 
 hr {
   margin-top: 20px;
   border: 0;
-  height: 2px;
+  height: 1px;
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
 
-#well-image {
-  float: right;
-  height: 300px;
-  width: 100%; }
-
-#well-title {
-  float: left; }
+@media (max-width: 768px) {
+  .screenshot {
+    width: 98%; } }
 
 /*# sourceMappingURL=projects.css.map */

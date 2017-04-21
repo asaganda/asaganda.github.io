@@ -1,60 +1,44 @@
-body{
-  background-color: #33C1BB;
-}
-
-#container{
-  background-color: white;
-  margin: 0 auto;
-  width: 900px;
-  height: 450px;
-}
-
-#recent{
+.section_header {
   text-align: center;
 }
 
 // contains dashboard pic with content
-#dashboard{
+.section_structure {
   border: 2px solid navy;
   border-radius: 7px;
-  height: 300px;
 }
 
 // styling/fit for image
-#dash-img{
-  margin-top: 5px;
-  margin-left: 5px;
-  width: 500px;
-  object-fit: contain;
-}
-
-#dash-image{
+.screenshot {
+  margin: 5px;
   float: left;
+  width: 43%;
+
+  img {
+    width: 100%;
+    height: auto;  
+  }
 }
 
-#dash-title, #dash-description{
-  padding-left: 515px;
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-// the break between the top most recent and the others
+// the break between the top most 
+// recent and the others
 hr{
   margin-top: 20px;
   border: 0;
-  height: 2px;
+  height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-#well-image{
-  float: right;
-  height: 300px;
-  width: 100%;
-  // object-fit: contain;
-}
-
-#well-title{
-  float: left;
-}
-
-#well-description{
+// media queries
+@media (max-width: 768px) {
+  .screenshot {
+    width: 98%;
+  }
 
 }
+
