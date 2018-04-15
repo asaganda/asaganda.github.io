@@ -11,36 +11,36 @@
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: 0; }
+  z-index: -1; }
 
 #nyc-overlay {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
-  left: 0; }
+  left: 0;
+  z-index: -1; }
 
 .section_header {
   text-align: center;
-  color: navy; }
+  color: white; }
 
-.link {
-  color: navy; }
+.link, p, h2, h3 {
+  color: white; }
+
+.white {
+  color: white; }
 
 .section_structure {
   border: 2px solid navy;
   border-radius: 7px; }
 
-.screenshot {
-  margin: 5px;
-  float: left;
-  width: 43%; }
-  .screenshot img {
-    width: 100%;
-    height: auto; }
+.screenshot img {
+  width: 100%;
+  height: auto; }
 
 .row {
   margin-left: 0px;
@@ -60,6 +60,12 @@ hr {
 
 @media (max-width: 768px) {
   .screenshot {
-    width: 98%; } }
+    width: 98%; }
+
+  .mb-50 {
+    margin-bottom: 50px; }
+
+  .pr-0 {
+    padding-right: 0px; } }
 
 /*# sourceMappingURL=projects.css.map */
