@@ -49,6 +49,14 @@
   height: auto;
 }
 
+.LI-logo {
+  width: 40px;
+}
+
+.GH-logo {
+  width: 40px;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -61,14 +69,6 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.mb-24 {
-  margin-bottom: 24px;
-}
-
-.mb-20 {
-  margin-bottom: 20px;
-}
-
 .desktop-hide {
   display: none;
 }
@@ -76,10 +76,6 @@ hr {
 @media (max-width: 768px) {
   .screenshot {
     width: 98%;
-  }
-
-  .mb-50 {
-    margin-bottom: 50px;
   }
 
   .pr-0 {
@@ -92,6 +88,14 @@ hr {
 
   .mobile-show {
     display: block;
+  }
+
+  .LI-logo {
+    width: 30px;
+  }
+
+  .GH-logo {
+    width: 30px;
   }
 }
 
