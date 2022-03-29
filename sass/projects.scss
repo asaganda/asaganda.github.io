@@ -85,11 +85,6 @@ hr {
   display: none;
 }
 
-// mobile-first
-// .screenshot {
-//   width: 98%;
-// }
-
 .pr-0 {
   padding-right: 0px;
 }
@@ -178,12 +173,16 @@ hr {
 .modal-trigger {
   font-size: 30px;
   border: none;
-  background-color: transparent;
-  color: white;
+  background-color: white;
+  color: black;
   line-height: 0.5;
   height: 30px;
   cursor: pointer;
   float: right;
+}
+.modal-trigger span {
+  display: block;
+  height: 63%;
 }
 .go-to-project {
   width: 200px;
